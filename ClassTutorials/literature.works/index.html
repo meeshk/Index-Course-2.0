@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Literature Works</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link rel="icon" href="images/pebble.png" />
+
+  <style>
+    p {
+      color:aquamarine;
+    }
+
+    h1 {
+      font-size: 100px;
+    }
+
+    .blackBG {
+      background-color: black;
+    }
+
+    #uniqueP {
+      background-color: brown;
+      color: yellowgreen;
+    }
+  </style>
+</head>
+<!-- There are many ways to write CSS but lets just start by writing internal CSS -->
+
+<!-- The only problem with internal styles is that they don't carry over to other pages of your site. Of course, you can copy and paste these styles to other pages of your site, but I wouldn't recommend it. -->
+
+<!-- You can create an external stylesheet (a styles.css file) so that you can link to this one file for all of your pages. You can do this by including in the <head> tag this:  <link href="styles.css" rel="stylesheet">.  -->
+
+<!-- Once you that, now you can see all of the styles on each page. As long as all of the styles are linked correctly, you will be able to add styles to all of the pages very easily. -->
+
+<!-- In terms of how CSS integrates with HTML, it should always go in the <head> of your document. Think of the <head> tag as holding all of the meta data for your page. -->
+
+
+<body>
+  <img src="images/pebble-large.png" alt="a smooth round gray pebble" />
+  <h1>The Pebble</h1>
+  <p style="font-size: 30px; background-color: blueviolet;">
+    (An excerpt)
+  </p>
+  <p id="uniquep" class="blackBG">
+    How would I define pebble? It’s a bit tricky, but if I were to start by the way of description, I should say that
+    pebble is something somewhere between rock and stone. The obvious defect of my definition is that I can’t stop
+    there: I have to continue defining stones and rocks all the way back to the flood and perhaps even further than
+    that, for all these rocks and stones come from one enormous ancestor; and of that fabulous body and its limbs only
+    one judgement can be made that apparently they did not hold up. Analysis can only produce amorphous, viscous,
+    interconnected agony, a terrible mess of its death bed and cannot awake a hero size of the world. Let us stop here
+    for a moment to contemplate the scale and veracity of this observation, unobscured by funeral mood. The expulsion of
+    life so ardent and glorious cannot happen without dramatic internal upheaval. This sacrifice is at the origin and
+    serves as the main cause of the gray chaos of the earth. After convulsions and torsions of a sleeping body agitated
+    under covers, our hero, tamed by his own consciousness, which subdues like a monstrous straitjacket, knew only a few
+    minor outbreaks, more intimate eruptions that declined in frequency as the covering envelope became heavier and
+    colder. And now his death and her chaos make one.
+  </p>
+  <p>
+    — Francis Ponge
+    <a
+      href="https://francispongeonlineanthology.wordpress.com/2017/08/10/pebble-a-fragment-of-a-text-of-francis-ponge-translated-by-vadim-bystritski/">
+      (Source)
+    </a>
+  </p>
+  <hr>
+  <nav>
+    <a class="blackBG" href="about.html">About</a><br>
+    <a href="contact.html">Contact</a>
+  </nav>
+</body>
+
+</html>
